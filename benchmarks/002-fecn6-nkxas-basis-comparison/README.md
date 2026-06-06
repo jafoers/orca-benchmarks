@@ -45,17 +45,6 @@ end
 Spectra aligned to the experimental pi* peak at 399.5 eV (Naumova 2022).
 Broadening: Voigt, Gamma_L = 0.12 eV, Gamma_G = 0.70 eV.
 
-## Results
-
-| Functional | Exchange | def2-TZVP | aug-cc-pVTZ on N |
-|---|---|---|---|
-| BP86 | 0% | poor | poor |
-| PBE0 | 25% | moderate | good |
-| CAM-B3LYP | range-sep. | moderate | good |
-
-Augmenting only the N basis improves PBE0 and CAM-B3LYP noticeably.
-BP86 (pure GGA, no exact exchange) remains poor regardless of basis.
-
 ## Hardware
 
 - CPU: 2x Intel Xeon E5-2696 v4
