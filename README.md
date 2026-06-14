@@ -20,6 +20,7 @@ Unless noted otherwise, benchmarks were run on a single dual-socket workstation:
 | --- | --- | --- | --- | --- |
 | 001 | [Porphin core scaling](benchmarks/001-porphin-core-scaling/) | Porphin, 38 atoms | B3LYP/def2-SVP | TDDFT/TDA and geometry-optimization scaling on the same machine. |
 | 002 | [FeCN6 N K-edge basis comparison](benchmarks/002-fecn6-nkxas-basis-comparison/) | `[Fe(CN)6]4-`, 13 atoms | TDDFT/TDA, def2-TZVP vs aug-cc-pVTZ on N | Augmenting only the N basis improves PBE0 and CAM-B3LYP; BP86 (no exact exchange) stays poor. |
+| 003 | [ZnTPP CPCM TDA comparison](benchmarks/003-zntpp-cpcm-tda-comparison/) | ZnTPP, 77 atoms | TDDFT, def2-TZVP, CPCM(toluene) | TDA-on vs full TD-DFT for five representative functionals against the toluene UV-vis spectrum. |
 
 ## Repository Policy
 
