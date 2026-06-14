@@ -13,6 +13,7 @@ functionals.
 - Atoms: 77
 - Geometry: [`zntpp_b3lyp_tzvp.xyz`](zntpp_b3lyp_tzvp.xyz) (B3LYP/def2-TZVP optimized)
 - Experiment: ZnTPP/toluene absorption spectrum from PhotochemCAD 2.1a
+  (Wagner 1994, Cary 3 measurement)
 
 ## Calculation
 
@@ -63,6 +64,9 @@ Experimental reference markers in the plot: Q(0,0) 589 nm, Q(1,0) 550 nm,
 Soret 423 nm. The plot scales the Q and Soret display regions independently;
 `xN` labels report the Soret/Q display ratio. Gaussian broadening: sigma =
 0.04 eV.
+
+Experimental source: PhotochemCAD 2.1a ZnTPP/toluene absorption dataset,
+measured by R. W. Wagner in 1994 on a Cary 3.
 
 ## Hardware
 
