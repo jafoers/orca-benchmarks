@@ -6,6 +6,8 @@ Full TD-DFT benchmark for three simple axial ligands on Mg-bacteriochlorin: H2O,
 
 ![B-band response of Mg-bacteriochlorin axial ligation in CH2Cl2](mgbacteriochlorin_axial_ligation_bbands.png)
 
+![Geometry comparison for Mg-bacteriochlorin axial ligation](mgbacteriochlorin_axlig_geometry_compare.png)
+
 ## System
 
 - Molecules: Mg-bacteriochlorin(H2O), Mg-bacteriochlorin(MeOH), Mg-bacteriochlorin(imidazole)
@@ -48,3 +50,4 @@ Imidazole leaves Qy almost unchanged, but shifts Qx and the B-band pair slightly
 - `mgbacteriochlorin_axial_ligation_peaks.csv`: parsed Q and B peak assignments.
 - `mgbacteriochlorin_axial_ligation_qbands.png`: Qx and Qy comparison across ligands and functionals.
 - `mgbacteriochlorin_axial_ligation_bbands.png`: Bx and By comparison across ligands and functionals.
+- `mgbacteriochlorin_axlig_geometry_compare.png`: side-by-side optimized geometry comparison for the three axial ligands.
