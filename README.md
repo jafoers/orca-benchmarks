@@ -27,6 +27,7 @@ Unless noted otherwise, benchmarks were run on a single dual-socket workstation:
 | 007 | [Mg core ladder shifts](benchmarks/007-mg-core-ladder-shifts/) | Mg-porphin, Mg-chlorin, Mg-bacteriochlorin | Full TD-DFT, def2-TZVP, gas phase and CPCM(CH2Cl2) | Mg insertion blue-shifts porphin and chlorin, but red-shifts bacteriochlorin. |
 | 008 | [Mg-bacteriochlorin axial ligation](benchmarks/008-mgbacteriochlorin-axial-ligation/) | Mg-bacteriochlorin with H2O, MeOH, imidazole | Full TD-DFT, def2-TZVP, CPCM(CH2Cl2) | H2O and MeOH are nearly identical; imidazole slightly blue-shifts Qx and the B-band pair while leaving Qy almost unchanged. |
 | 009 | [Mg-chlorin axial ligation](benchmarks/009-mgchlorin-axial-ligation/) | Mg-chlorin with H2O, MeOH, imidazole | Full TD-DFT, def2-TZVP, CPCM(CH2Cl2) | H2O and MeOH are nearly identical; imidazole lowers S1, S2, and both bright B-region states. |
+| 010 | [Chlorophyllide growth](benchmarks/010-chlorophyllide-growth/) | Chlorin, minimal Mg-phorbine, chlorophyllide a | B3LYP-D4 geometries; full TD-DFT/def2-TZVP, gas phase and CPCM(CH2Cl2) | Peripheral substitution red-shifts Qy and Bx across the hybrids; TPSS fragments the B-state manifold. |
 
 ## Repository Policy
 
