@@ -34,7 +34,7 @@ TDDFT/TDA example:
   triplets false
 end
 
-* xyzfile 0 1 /home/jannes/porphin/opt.xyz
+* xyzfile 0 1 porphin.xyz
 ```
 
 Geometry-optimization example:
